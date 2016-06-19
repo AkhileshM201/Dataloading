@@ -15,6 +15,7 @@ public class BikeStatusDriver {
 		
 	
 	Configuration conf = new Configuration();
+	System.out.println("This is experiment doing in eclipse");
 	Job job1 = new Job(conf,"Bike Status");
 	job1.setJarByClass(BikeStatusDriver.class);
 
