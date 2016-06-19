@@ -12,6 +12,7 @@ public class HBaseBulkLoad {
 		
 	try {
 		Configuration conf = new Configuration();
+		System.out.println("This is bulk loading");
 		conf.set("mapreduce.child.java.opts","-Xmxlg");
 		HBaseConfiguration.addHbaseResources(conf);
 		LoadIncrementalHFiles loadFiles=
