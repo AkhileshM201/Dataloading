@@ -1,0 +1,3 @@
+com/hbase/dataloading/HBaseBulkLoadDriver.class
+com/hbase/dataloading/HBaseBulkLoad.class
+com/hbase/dataloading/HBaseBulkLoadMapper.class
